@@ -12,15 +12,17 @@ public class Day30exception {
 		//System.out.println("hello");
 		//System.out.println(6/0);
 		//System.out.println("Thank you");
+		System.out.println("This is without exception handling");
 		
 		
 		
 		
-		//Program 2: with exception
+		//Program 2: with exception(try.....catch)
 		
 		System.out.println("hello");
 		try {
-			int divideByZero = 6/0;
+			System.out.println(5/5);
+			//int divideByZero = 6/0;
 			System.out.println("Rest of code in try block");
 			System.out.println("Rest of code in try block 2");
 			System.out.println("Rest of code in try block 3");
