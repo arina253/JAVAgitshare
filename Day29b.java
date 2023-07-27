@@ -1,5 +1,7 @@
 package gitshare;
 
+//ENUM IN A SWITCH STATEMENT
+
 enum Size{
 	SMALL,MEDIUM,LARGE,EXTRALARGE
 }

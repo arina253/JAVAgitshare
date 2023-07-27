@@ -1,5 +1,7 @@
 package gitshare;
 
+//ENUM WITH ITS OWN METHOD
+
 enum Sizee{
 	SMALL,MEDIUM,LARGE,EXTRALARGE;
 	
@@ -31,7 +33,7 @@ public class Day29c {
 
 	}
 	
-	//Size.small ===========>object of small size ======> this
-	//Size.medium ==========> object of medium size=====> this
+	//Sizee.SMALL ===========>object of small size ======> this
+	//Sizee.MEDIUM ==========> object of medium size=====> this
 
 }
