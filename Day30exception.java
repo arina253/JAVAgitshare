@@ -21,12 +21,13 @@ public class Day30exception {
 		
 		System.out.println("hello");
 		try {
-			System.out.println(5/5);
-			//int divideByZero = 6/0;
+			
+			int divideByZero = 6/0;
 			System.out.println("Rest of code in try block");
 			System.out.println("Rest of code in try block 2");
 			System.out.println("Rest of code in try block 3");
 			System.out.println("Rest of code in try block 4");
+			
 			}
 		
 		catch (ArithmeticException e) {
