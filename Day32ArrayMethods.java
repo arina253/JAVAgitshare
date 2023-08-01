@@ -96,7 +96,50 @@ public class Day32ArrayMethods {
 		System.out.println(names.lastIndexOf("kalpana"));
 
 		System.out.println(names.lastIndexOf("aparna"));
+		
+/************************************************************************/
 
-	}
+   //Program 2
 
-}
+  ArrayList <String> vegetables = new ArrayList <>();
+  
+  vegetables.add("cabbage");
+  vegetables.add("cauli");
+  vegetables.add("potato");
+  vegetables.add("squash");
+  vegetables.add("carrot");
+  
+  //To check if the ArrayList contains potato
+  
+  //Method1
+  
+  String userInput = "potato";
+  
+  if (vegetables.contains(userInput)){
+	  System.out.println("Included");
+  }
+	  else {
+		   System.out.println("Not included");
+		  }
+  
+  //Method2
+		  
+  
+  //indexOf()
+  
+  if (vegetables.indexOf("potato") >= 0) {
+	  System.out.println("Available");
+  }
+  else {
+	  System.out.println("Not available");
+  }
+	  
+  }
+	  
+  }
+  
+
+
+	
+
+
