@@ -2,7 +2,7 @@ package gitshare;
 
 import java.util.ArrayList;
 
-public class Day31 {
+public class Day31b {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -34,7 +34,7 @@ public class Day31 {
 		
 		for (int i = 0; i < students.size(); i++) {
 			//System.out.println(i);
-			System.out.println(students.get(i).firstName);
+			System.out.println(students.get(i).firstName);  //Accessing the properties and methods
 			System.out.println(students.get(i).lastName);
 			students.get(i).display();
 		}
@@ -57,10 +57,15 @@ public class Day31 {
 	    System.out.println(A.lastName);
 	    A.display();
 		}
+		
+		//Checking if the ArrayList is empty
+		
+		boolean e =students.isEmpty();
+		System.out.println(e);
 			
-		}
 		
 		
+	}	
 		
 	
 	}
