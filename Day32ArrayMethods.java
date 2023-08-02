@@ -25,7 +25,7 @@ public class Day32ArrayMethods {
 
 		// remove()
 
-		// 0 1 2 3 4
+		//   0       1       2       3      4
 		// [arina, sarita, jyoti, roshini, mohan]
 
 		names.remove(0);
