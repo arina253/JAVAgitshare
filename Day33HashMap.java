@@ -10,6 +10,8 @@ public class Day33HashMap {
 	// HashMap-to store key-value pairs and various operations performed on it. 
 
 		HashMap<String, Integer> person = new HashMap<>();
+		//HashMap<String, Integer> person = new HashMap<String, Integer>();
+
 
 		person.put("ram", 10);
 		person.put("sam", 20);
