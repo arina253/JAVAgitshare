@@ -2,7 +2,7 @@ package gitshare;
 
 import java.util.ArrayList;
 
-public class Day31Collection {
+public class Day31ArrayList {
 
 	public static void main(String[] args) {
 
