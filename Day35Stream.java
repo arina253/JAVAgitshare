@@ -3,7 +3,7 @@ package gitshare;
 import java.util.Arrays;
 import java.util.List;
 
-public class Day35Strings {
+public class Day35Stream {
 
 	public static void main(String[] args) {
 		

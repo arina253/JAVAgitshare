@@ -3,7 +3,7 @@ package gitshare;
 import java.util.Arrays;
 import java.util.List;
 
-public class StreamsMethod {
+public class Day36StreamsMethod {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
