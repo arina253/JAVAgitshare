@@ -56,6 +56,7 @@ public class Day30b {
       catch ( ArithmeticException e) {
     	  System.out.println("please enter a valid input");
     	  System.out.println(e.getMessage());
+    	 // e.printStackTrace();     //java.lang.ArithmeticException
       }
       
       catch (ArrayIndexOutOfBoundsException e) {

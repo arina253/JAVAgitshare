@@ -17,7 +17,7 @@ public class Person37Stream {
 		
 		
 		//Program 1
-		//List of persons above 30 age
+		//List of persons above 30 age-----Filtering by age
 		
 		List<PersonZ>above30Age = peoples.stream().filter(person -> person.getAge()> 30).collect(Collectors.toList());
 				
@@ -33,7 +33,7 @@ public class Person37Stream {
 		
 		
 		//Program 2
-		//Map and collect fullname
+		//Map and collect fullname-------Mapping full names
 		//["ram joshi","sam rai","ramu rao","balram shakya","ramita chhetri"]
 		
 		List <String> names = peoples.stream().map(person -> person.getfullName()).collect(Collectors.toList());
@@ -44,7 +44,7 @@ public class Person37Stream {
 		
 		
 		//Program 3
-		//Person and city
+		//Person and city----------Mapping full names & city
 		// "ram joshi : kathmandu"
 		
 		List <String> nc = peoples.stream()
@@ -86,5 +86,12 @@ class PersonZ{
 	 }
 	
 }
+
+
+/**************************************************************************************************************/
+
+
+//List.of()
+//.collect (Collectors.toList())
 
 

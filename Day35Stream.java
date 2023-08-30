@@ -17,7 +17,7 @@ public class Day35Stream {
 			employees[i].displayFullName();
 		}
 		
-		//STRING METHODS
+		//STREAM  METHODS
 
 		
 		List <Employee>emplist = Arrays.asList(employees);
