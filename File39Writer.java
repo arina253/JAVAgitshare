@@ -3,7 +3,7 @@ package gitshare;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class File39 {
+public class File39Writer {
 
 	public static void main(String[] args) {
 

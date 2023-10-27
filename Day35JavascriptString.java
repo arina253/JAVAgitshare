@@ -52,8 +52,9 @@ public class Day35JavascriptString {
 				    return acc + el  //  66 
 				},0) 
 				console.log(q6)
+				*/
 	}
 
 }
 
-*/
+

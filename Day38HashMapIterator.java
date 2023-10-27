@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class Day38HashMapExamples {
+public class Day38HashMapIterator {
 
 	public static void main(String[] args) {
 		
@@ -116,6 +116,8 @@ public class Day38HashMapExamples {
 		   
 		   
 		   //Iterator
+		   
+		 //  Use of HashMap in Java and  iterate over its entries using an iterator. 
 		   
 		   HashMap<String,String>names = new HashMap<>();
 		   

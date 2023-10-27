@@ -1,7 +1,6 @@
 package gitshare;
 
-import two.Sizeee;
-import two.TestSize;
+
 
 enum SizeX{
 	SMALL,MEDIUM,LARGE,EXTRALARGE;
@@ -18,24 +17,24 @@ public class Aug20Testh {
 }
 
 class TestSizeX{
-	String dress;
+	SizeX dress;
 	
-	public TestSizeX(String dr) {
-		this.dress = dr;
+	public TestSizeX(SizeX dress ) {
+		this.dress = dress ;
 	}
 	
 	public void buyDress() {
 		switch (dress) {
-		case "SMALL":
+		case SMALL:
 			System.out.println("Small size needed");
 			break;
-		case "MEDIUM":
+		case MEDIUM:
 			System.out.println("Medium size needed");
 			break;
-		case "LARGE":
+		case LARGE:
 			System.out.println("Large size needed");
 			break;
-		case "EXTRALARGE":
+		case EXTRALARGE:
 			System.out.println("Extralarge size needed");
 		}
 	}
